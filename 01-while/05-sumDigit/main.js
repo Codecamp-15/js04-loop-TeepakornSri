@@ -16,7 +16,7 @@ if ( n < 0 ) n = -n;
 
 
 let sum = 0;
-while (n) {
+while (n >= 1) {
     let remainder = n % 10;
     n = ( n - remainder) / 10;
     sum += remainder;

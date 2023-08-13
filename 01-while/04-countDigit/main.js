@@ -16,8 +16,8 @@ if ( n < 0 ) n = -n;  // วิธีทำให้นับตัวเลข�
 
 while(n >= 1 ) {
     console.log(n);
-    count++;
     n = n / 10;
+    count++;
 }
 
 console.log(count)

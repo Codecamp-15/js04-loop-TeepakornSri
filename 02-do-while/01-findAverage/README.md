@@ -11,7 +11,7 @@ IF number
     ADD 1 to count
     BACK TO LINE 7 
 ELSE 
-    PRINT sum
+    PbRINT sum
     PRINT average
 */ 
 
